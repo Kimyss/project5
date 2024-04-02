@@ -5,14 +5,14 @@ package method;
  * 예시 10, 5 => 15 5 50 2 0 
  * */
 public class Quiz1 {
-	public static void arithmetic(int num1, int num2) {
-		int add = num1 + num2;
-		int minus = num1 - num2;
-		int multiple = num1 * num2;
-		int div = num1 / num2;
-		int reminder = num1 % num2;
+	public static void arithmetic(int n1, int n2) {
+		System.out.println(n1 + "+" + n2 + "=" + (n1 + n2));
+		System.out.println(n1 + "-" + n2 + "=" + (n1 - n2));
+		System.out.println(n1 + "*" + n2 + "=" + (n1 * n2));
+		System.out.println(n1 + "/" + n2 + "=" + (n1 / n2));
+		System.out.println(n1 + "%" + n2 + "=" + (n1 % n2));
 		
-		System.out.println(add);
+		System.out.println();
 		
 	}
 
