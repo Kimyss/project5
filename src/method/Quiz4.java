@@ -26,8 +26,8 @@ public class Quiz4 {
 		
 		
 	public static void main(String[] args) {
-		int num1 = 30;
-		int num2 = 20;
+		int num1 = 20;
+		int num2 = 30;
 
 		int result = minus(num1, num2); //함수 호출
 		System.out.println(num1 + " - " + num2 + " = " + result + "입니다");
